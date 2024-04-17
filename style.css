@@ -1,0 +1,64 @@
+p {
+    text-align: right;
+}
+
+body {
+    text-align: center;
+    color: green;
+    font-size: 16px;
+}
+
+.retangulo {
+    width: 400px;
+    height: 200px;
+    border: 1px solid red;
+    background-color: #eee;
+    padding: 10px;
+    margin: 5px;
+}
+
+* {
+    box-sizing: 0px;
+}
+
+nav, header, main, aside, footer {
+    background-color: #8e7cc3;
+    text-align: center;
+    margin-bottom: 5px;
+    padding: 5px;
+    color: #fff;
+}
+
+nav {
+    height: 40px;
+}
+
+header {
+    height: 100px;
+}
+
+main, aside {
+    min-height: 450px;
+}
+
+main {
+    width: 73%;
+    margin-right: 1%;
+    float: left;
+}
+
+section {
+    margin-top: 20px;
+    width: 100%;
+    height: 200px;
+    background-color: #b4a7d6;
+}
+aside {
+    width: 23%;
+    float: right;
+}
+
+footer {
+    clear: both;
+    height: 60px;
+}
